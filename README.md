@@ -39,6 +39,7 @@ pip install opencv-python
 
 * To run different filters and masks, run using: 
    * For surgical mask filter
+   ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/35187768/97100752-0ca2ec80-1654-11eb-8f27-e49c541dfd72.gif)
 ```
 python mask_dlib.py
 ```
