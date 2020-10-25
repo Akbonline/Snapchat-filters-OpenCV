@@ -20,7 +20,7 @@ This repository contains python implmentation of various snapchat like face filt
 ### Installing
 * Git clone repository: 
 ```
-git clone 
+git clone https://github.com/Akbonline/Snapchat-filters-OpenCV.git
 ```
 * Make sure to install the dependencies:
 ```
@@ -32,47 +32,58 @@ pip install opencv-python
 ```
 
 ### Executing program
+* Before running the program, please navigate to the resources folder and merge/extract the following files:
+   * shape_predictor_68_face_landmarks.7z.001
+   * shape_predictor_68_face_landmarks.7z.002
+   * shape_predictor_68_face_landmarks.7z.003
 
-* How to run the program
+* To run different filters and masks, run using: 
+   * For surgical mask filter
 ```
-pip install dlib
+python mask_dlib.py
 ```
-* Step-by-step bullets
+   * For annabelle face mask
 ```
-code blocks for commands
+python annabelle.py
+```
+   * For Batman mask filter
+```
+python batman Mask.py
+```
+   * For Cat mask filter
+```
+python cat.py
+```
+   * For Clown Nose filter
+```
+python clown.py
+```
+   * For Moustache face filter
+```
+python moustache.py
+```
+   * For Pig Nose face filter
+```
+python pig.py
 ```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you see any errors, please make sure you've installed Dlib, opencv-python modules. Also make sure to merge the three shape_predictor_68_face_landmarks dataset files from resources folder. 
+If you still encounter any issues or errors, feel free to reach out!
 
 ## Authors
 
-Contributors names and contact info
+Akshat Bajpai
+* Email: akshatbajpai.biz@gmail.com
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Sergio's Youtube tutorial on simple dlib](https://www.youtube.com/watch?v=IJpTe-1cimE&t=1425s)
