@@ -43,6 +43,7 @@ pip install opencv-python
 python mask_dlib.py
 ```
    * For annabelle face mask
+   ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/35187768/97100658-f0528000-1652-11eb-9c32-bd20fbf03424.gif)
 ```
 python annabelle.py
 ```
@@ -51,14 +52,17 @@ python annabelle.py
 python batman Mask.py
 ```
    * For Cat mask filter
+   ![cat](https://user-images.githubusercontent.com/35187768/97100607-660a1c00-1652-11eb-82b2-990849a32098.gif)
 ```
 python cat.py
 ```
    * For Clown Nose filter
+   ![clown](https://user-images.githubusercontent.com/35187768/97100605-5be81d80-1652-11eb-84dc-4e3638cf39fa.gif)
 ```
 python clown.py
 ```
    * For Moustache face filter
+   ![moos](https://user-images.githubusercontent.com/35187768/97100608-6bfffd00-1652-11eb-9a65-5c46c9e58511.gif)
 ```
 python moustache.py
 ```
